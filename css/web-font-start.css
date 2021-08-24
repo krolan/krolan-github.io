@@ -1,0 +1,55 @@
+/* General setup */
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../Fonts/AlexBrush-regular/alexbrush-regular.woff2') format('woff2'),
+         url('../Fonts/AlexBrush-regular/alexbrush-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Museo_Slab_500italic';
+    src: url('../Fonts/museoslab_500italic/Museo_Slab_500italic-webfont.woff2') format('woff2'),
+         url('../Fonts/museoslab_500italic/Museo_Slab_500italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+html {
+    font-size: 10px;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Typography */
+  
+  h1 {
+    font-size: 4.2rem;
+    font-family: 'alex_brushregular';
+    font-style: italic;
+  }
+  
+  h2 {
+    font-size: 3.4rem;
+    font-family: 'alex_brushregular';
+    font-style: italic;
+    
+  }
+  
+  p {
+    font-family: 'Museo_Slab_500italic';
+    font-size: 1.4rem;
+    line-height: 1.6;
+    word-spacing: 0.5rem;
+  }
